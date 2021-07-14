@@ -35,6 +35,14 @@
     .sec-5 h1 {
         margin-left: 3px;
     }
+    .sec-5-content {
+        display: grid;
+        grid-template-columns: repeat(2,280px);
+        grid-gap: 25px;
+    }
+    .sec-5 {
+        height: 67vh;
+    }
 }
 
 /* if the viewport is equal to 768px or less than that */
@@ -177,7 +185,7 @@
 /* if the viewport is equal to 320px or less than that */
 @media only screen and (max-width: 320px){
     .home-div1 h1 {
-        width: 320px;
+        width: 325px;
         font-size: 35px;
     }
     .highlight-text p {
@@ -204,8 +212,14 @@
     }
     .sec-5-content {
         display: grid;
-        grid-template-columns: repeat(1,220px);
+        grid-template-columns: repeat(1,210px);
         grid-gap: 20px;
+    }
+    .mr {
+        margin: 30px ;
+    }
+    .mb {
+        margin: 30px;
     }
 }
 
