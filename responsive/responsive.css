@@ -167,8 +167,13 @@
 
 /* if the viewport is equal to 375px or less than that */
 @media only screen and (max-width: 375px){
+    .section__title {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
     .highlight-text h1 {
-        width: 335px;
+        width: 370px;
         font-size: 38px;
     }
     .highlight-text p {
@@ -185,8 +190,12 @@
 /* if the viewport is equal to 320px or less than that */
 @media only screen and (max-width: 320px){
     .home-div1 h1 {
-        width: 325px;
+        width: 320px;
         font-size: 35px;
+    }
+    .section__title {
+        font-size: 30px;
+        line-height: 40px;
     }
     .highlight-text p {
         width: 280px;
