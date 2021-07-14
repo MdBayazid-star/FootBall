@@ -1,0 +1,215 @@
+/* if the viewport is equal to 1024px or less than that */
+@media only screen and (max-width: 1024px){
+    .home{
+        height: 800px;
+    }
+    .home__content {
+        margin: 0 0 0 15px;
+    }
+    .home__img img {
+        width: 100%;
+    }
+    .player-main-div{
+        width: 100%;
+    }
+    .text-div p{
+        width: 280px;
+    }
+    .highlight-sec{
+        margin-top: 100px;
+    }
+    .highlight-text{
+        margin-left: 100px;
+        margin-top: 50px;
+    }
+    .highlight-text h1{
+        width: 460px;
+        height: 150px;
+    }
+    .highlight-img {
+        margin-right: 30px;
+    }
+    .highlight-img img {
+        width: 100%;
+    }
+    .sec-5 h1 {
+        margin-left: 3px;
+    }
+}
+
+/* if the viewport is equal to 768px or less than that */
+@media only screen and (max-width: 768px){
+    .player-main-div{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .home-div1 h1 {
+        font-size: 48px;
+        width: 359px;
+    }
+    .home-div1 {
+        margin-top: 100px;
+        margin-left: 50px;
+    }
+    .highlight-text {
+        margin-left: 50px;
+    }
+    .highlight-text{
+        width: 50%;
+    }
+    .highlight-img{
+        width: 50%;
+    }
+    .highlight-text h1 {
+        width: 384px;
+        height: 150px;
+        font-size: 45px;
+    }
+    .highlight-text p {
+        width: 385px;
+        height: 105px;
+        left: 0px;
+        top: 0px;
+        font-size: 14px;
+        line-height: 28px;
+        margin-top: 30px;
+    }
+    .highlight-img img {
+        width: 105%;
+        margin-top: 60px;
+    }
+    .sec-5-content {
+        display: grid;
+        grid-template-columns: repeat(2,300px);
+        grid-gap: 25px;
+    }
+    .sec-5 {
+        height: 65vh;
+    }
+}
+
+/* if the viewport is equal to 425px or less than that */
+@media only screen and (max-width: 425px){
+    .player-main-div{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .home{
+        flex-direction: column;
+    }
+    .home-div1{
+        width: 100%;
+        margin-top: 50px;
+        margin-left: 40px;
+    }
+    .home-div2{
+        width: 100%;
+    }
+    .home-div1 h1 {
+        font-size: 43px;
+        padding-left: 40px;
+    }
+    .home-div1 a{
+        padding-left: 40px;
+    }
+    .highlight-sec{
+        flex-direction: column;
+    }
+    .highlight-text h1 {
+        width: 375px;
+        font-size: 40px;
+    }
+    .highlight-text p {
+        width: 366px;
+        height: 100px;
+    }
+    .highlight-text {
+        width: 100%;
+        margin-left: 0px;
+        padding-left: 40px;
+    }
+    .highlight-img {
+        width: 100%;
+        margin-right: 0px;
+    }
+    .highlight-img img {
+        width: 100%;
+        margin-top: 35px;
+    }
+    .home-div1{
+        margin-left: 0px;
+    }
+    footer{
+        margin-top: 30px;
+    }
+    .sec-4-text h1 {
+    width: 390px;
+    height: 120px;
+    font-size: 46px;
+    line-height: 65px;
+    padding-left: 20px;
+    }
+    .sec-5-content {
+        display: grid;
+        grid-template-columns: repeat(1,250px);
+        grid-gap: 20px;
+    }
+    .sec-5 {
+        height: 110vh;
+    }
+}
+
+/* if the viewport is equal to 375px or less than that */
+@media only screen and (max-width: 375px){
+    .highlight-text h1 {
+        width: 335px;
+        font-size: 38px;
+    }
+    .highlight-text p {
+        width: 310px;
+        height: 100px;
+    }
+    .sec-4-text p {
+        width: 363px;
+        padding-left: 20px;
+        height: 150px;
+    }
+}
+
+/* if the viewport is equal to 320px or less than that */
+@media only screen and (max-width: 320px){
+    .home-div1 h1 {
+        width: 320px;
+        font-size: 35px;
+    }
+    .highlight-text p {
+        width: 280px;
+        height: 140px;
+    }
+    .highlight-text h1 {
+        width: 273px;
+        font-size: 35px;
+    }
+    .highlight-sec {
+        margin-top: 0px;
+    }
+    .sec-4-text{
+        width: 100%;
+    }
+    .sec-4-text h1 {
+        width: 320px;
+        padding-left: 17px;
+    }
+    .sec-4-text p {
+        width: 320px;
+        padding-left: 17px;
+    }
+    .sec-5-content {
+        display: grid;
+        grid-template-columns: repeat(1,220px);
+        grid-gap: 20px;
+    }
+}
+
+
+
+
+
